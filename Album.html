@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Album</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fcd0cb; /* Pink background */
+            color: #333; /* Dark text color for better visibility */
+        }
+
+        header {
+            background-color: #ff6b6b; /* Darker pink header */
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            text-align: left;
+        }
+
+        .collection {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #ffffff; /* White background for each collection */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .collection-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .collection img {
+            max-width: 10%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Photo Album</h1>
+    </header>
+
+    <main>
+        <div class="collection">
+            <div class="collection-text">
+                <h2>Collection 1: Fun Times</h2>
+                <p>Explaining the photos in this collection...</p>
+                <p>Additional text beneath the photo...</p>
+            </div>
+            <img src="bulga.jpg" alt="Fun Photo 1">
+        </div>
+
+        <div class="collection">
+            <div class="collection-text">
+                <h2>Collection 2: Memorable Moments</h2>
+                <p>Explaining the photos in this collection...</p>
+                <p>Additional text beneath the photo...</p>
+            </div>
+            <img src="zwart-wit.jpg" alt="Memorable Photo 1">
+        </div>
+
+        <!-- Add more collections as needed -->
+
+    </main>
+</body>
+</html>
